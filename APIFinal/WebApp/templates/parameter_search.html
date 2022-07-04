@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="./static/style.css" />
+</head>
+<body>
+<br>
+    <form action="{{ url_for('search') }}" method="POST">
+        <h1>FINAL PROJECT</h1>
+        <p>Enter your name/nickname</p>
+        <p>{{form.name()}}</p>
+        <p>Enter the crypto currency symbol to search for i.e "BTC", "ETH" (without "") </p>
+        <p>{{form.cryptoCoin()}}</p>
+    <label>{{ form.websiteParameter.label }}:</label>
+                {{ form.websiteParameter }}<br>
+    <br><br>
+    <input type="submit" value="Search">
+    </form>
+</body>
+</html>
