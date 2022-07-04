@@ -1,0 +1,33 @@
+{
+  "status": "success",
+  "data": {
+    "city": "Winter Garden",
+    "state": "Florida",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -81.6367,
+        28.3478
+      ]
+    },
+    "current": {
+      "weather": {
+        "ts": "2021-11-14T15:00:00.000Z",
+        "tp": 18,
+        "pr": 1019,
+        "hu": 70,
+        "ws": 0.89,
+        "wd": 280,
+        "ic": "03d"
+      },
+      "pollution": {
+        "ts": "2021-11-14T16:00:00.000Z",
+        "aqius": 45,
+        "mainus": "p2",
+        "aqicn": 16,
+        "maincn": "p2"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+
+body {
+border: solid
+}
+
+p {
+color: black;
+}
+
+h1, h3 {
+color : blue;
+}
+
+img {
+width: 50%;
+height: 50%;
+}

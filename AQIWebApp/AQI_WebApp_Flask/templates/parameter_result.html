@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="./static/style.css" />
+</head>
+<body>
+    <h1>Weather Results</h1>
+    <h3>Displaying your chosen option - {{param}} - : {{ result }} </h3>
+    <br>
+    <p> Coordinates are : {{everything["coordinates"]}} </p>
+    <p> Temperature in celsius is : {{everything["temperatureC"]}} C </p>
+    <p> Pressure is : {{everything["pressure"]}} </p>
+    <p> Humidity is : {{everything["humidity"]}} </p>
+    <p> AQI(Air Quality) is : {{everything["aqius"]}} </p>
+
+
+    <img src="{{url_for('static', filename='results.jpg')}}" align="middle" />
+</body>
+</html>
